@@ -36,7 +36,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#contact"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/landing-img.jpg # TODO rename to svg or png
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - cds
@@ -46,6 +46,11 @@ params:
     - nogueira
     - rb
     - redevistorias
+    partnerlogos:
+    - bling
+    - flexy
+    - huru
+    - varejoonline
   
     # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
@@ -68,19 +73,19 @@ params:
     title: Great power comes
     subtitle: with great responsibility
     tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+    - title: Developer Builder
+      icon: laptop-cloud
+      text: Portal com SDKs e construtor de automação para simplificar e acelerar o desenvolvimento de integrações.
       url: /
       buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+    - title: Developer Admin
+      icon: mouse-globe
+      text: Acompanhe o status dos serviços, logs de transações e acelere o diagnóstico e solução em caso de falhas.
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: Professional Services
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Foque no que realmente importa para seu negócio e deixe a integração com nossos especialistas.
       url: /
       buttonText: Get started
   # Shows information why someone should use this product.
@@ -123,14 +128,14 @@ params:
       quote: A Fluid nos permitiu integrar a plataforma de E-Commerce com o ERP Totvs (situação que ficamos por quase dois anos com outro fornecedor sem sucesso). De uma forma simples, foi possível integrar atributos do produto, estoques, valores, dados fiscais e ainda assim implementar processos de exceção.
       job: Gerente de Marketing & e-commerce
       img: 3
-    - name: John Bradley // TODO
+    - name: Rodrigo Azevedo
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Financial Analyst
       img: 2
-    # - name: Irma Walters // TODO
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: HR Manager
-    #   img: 1
+    - name: Paul Eipper
+      quote: A Fluid nos permitiu focar na evolução de nossa API, a qual é um diferencial importante de nosso serviços, enquanto delegamos a eles toda a complexidade do desenvolvimento e gestão da integração.
+      job: Diretor de Tecnologia
+      img: 3
   # Write us.
   section5: true
 
