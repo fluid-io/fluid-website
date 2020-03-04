@@ -28,7 +28,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Digital transformation enabler
+    title: Digital enabler
     # Hero subtitle (optional)
     subtitle: Simplificamos o desenvolvimento e gerenciamento de integrações e APIs
     # Button text
@@ -113,27 +113,27 @@ params:
       text: Automatize o envio de dados de preço para as suas aplicações de vendas, ERPs e CRMs.
       icon: mobile-feed
   # Display a bright image of your product.
-  section3: # TODO
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+  # section3: # TODO
+  #   # title: Mais que uma plataforma, uma solução de integração
+  #   subtitle: Mais que uma plataforma, uma solução de integração
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#contact"
   # What clients says about us.
   section4:
     title: Quem já está fluindo
     subtitle: Reduzindo custos, tempo de entrega de valor e inovando com a Fluid
     clients:
-    - name: André Pereira
-      quote: A Fluid nos permitiu integrar a plataforma de E-Commerce com o ERP Totvs (situação que ficamos por quase dois anos com outro fornecedor sem sucesso). De uma forma simples, foi possível integrar atributos do produto, estoques, valores, dados fiscais e ainda assim implementar processos de exceção.
-      job: Gerente de Marketing & e-commerce
-      company: NB Indústrias
-      img: andre
     - name: Rodrigo Azevedo
-      quote: A solução da Fluid foi crucial para integrar nosso marketplace com nosso ERP, como também com o ERP de nossos parceiros.
+      quote: A solução da Fluid foi crucial para integrar nosso marketplace com nosso ERP Saibweb, como também com o ERP Bling de nosso parceiro.
       job: Gerente de TI
       company: Dydyo Refrigerantes
       img: rodrigo
+    - name: André Pereira
+      quote: A Fluid nos permitiu integrar a plataforma de E-Commerce com o ERP Totvs (situação que ficamos por quase dois anos com outro fornecedor sem sucesso). De uma forma simples, integramos produtos, estoques, valores, dados fiscais e implementamos processos de exceção.
+      job: Gerente de Marketing
+      company: NB Indústrias
+      img: andre
     - name: Paul Eipper
       quote: A Fluid nos permitiu focar na evolução de nossa API, a qual é um diferencial importante de nosso serviços, enquanto delegamos a eles toda a complexidade do desenvolvimento e gestão da integração.
       job: Diretor de Tecnologia
@@ -145,6 +145,7 @@ params:
   footer:
     # Logo (from /images/logos/___)
     logo: logo-white.svg
+    # TODO Show address and contact
     # Social Media Title
     socialmediatitle: Siga-nos
     # Social media links (GitHub, Twitter, etc.). All are optional.
