@@ -36,7 +36,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#contact"
     # Hero image (from static/images/___)
-    image: illustrations/landing-img.jpg # TODO rename to svg or png
+    image: illustrations/hero-img.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - cds
@@ -70,8 +70,8 @@ params:
   
   # Describes the second "page" which you will see when you scroll down. Currently it will have always three titles.
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Integração
+    subtitle: Sem complicação
     tiles:
     - title: Developer Builder
       icon: laptop-cloud
@@ -89,9 +89,9 @@ params:
       url: /
       buttonText: Get started
   # Shows information why someone should use this product.
-  section2: # TODO
-    title: You're here because you want the best # TODO
-    subtitle: And we know it # TODO
+  section2:
+    title: Quebrando barreiras
+    subtitle: mais produtividade, receitas e menos silos para a verdadeira transformação digital
     features:
     - title: Fluid na sua logística
       text: Integre sua operação de vendas e distribuição com transportadoras, gateways de frete e _deliveries_.
@@ -121,21 +121,24 @@ params:
     buttonLink: "#"
   # What clients says about us.
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: Quem já está fluindo
+    subtitle: Reduzindo custos, tempo de entrega de valor e inovando com a Fluid
     clients:
     - name: André Pereira
       quote: A Fluid nos permitiu integrar a plataforma de E-Commerce com o ERP Totvs (situação que ficamos por quase dois anos com outro fornecedor sem sucesso). De uma forma simples, foi possível integrar atributos do produto, estoques, valores, dados fiscais e ainda assim implementar processos de exceção.
       job: Gerente de Marketing & e-commerce
-      img: 3
+      company: NB Indústrias
+      img: andre
     - name: Rodrigo Azevedo
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
+      quote: A solução da Fluid foi crucial para integrar nosso marketplace com nosso ERP, como também com o ERP de nossos parceiros.
+      job: Gerente de TI
+      company: Dydyo Refrigerantes
+      img: rodrigo
     - name: Paul Eipper
       quote: A Fluid nos permitiu focar na evolução de nossa API, a qual é um diferencial importante de nosso serviços, enquanto delegamos a eles toda a complexidade do desenvolvimento e gestão da integração.
       job: Diretor de Tecnologia
-      img: 3
+      company: Rede Vistorias
+      img: paul
   # Write us.
   section5: true
 
