@@ -18,7 +18,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy 
-  description: // TODO
+  description: Simplifying the development and management of APIs and Integrations
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/logo-dark.svg
@@ -30,11 +30,11 @@ params:
     # Main hero title
     title: Digital transformation enabler
     # Hero subtitle (optional)
-    subtitle: Simplifying the development and management of APIs and Integrations
+    subtitle: Simplificamos o desenvolvimento e gerenciamento de integrações e APIs
     # Button text
-    buttontext: Fale Conosco
+    buttontext: Comece já!
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#contact"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -45,6 +45,7 @@ params:
     - jf
     - nogueira
     - rb
+    - redevistorias
   
     # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
@@ -59,7 +60,7 @@ params:
   #   - title: Dropdown item
   #     url: /
   - title: Fale Conosco
-    url: /
+    url: /#contact
     button: true
   
   # Describes the second "page" which you will see when you scroll down. Currently it will have always three titles.
@@ -126,10 +127,10 @@ params:
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Financial Analyst
       img: 2
-    - name: Irma Walters // TODO
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 1
+    # - name: Irma Walters // TODO
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: HR Manager
+    #   img: 1
   # Write us.
   section5: true
 
@@ -137,7 +138,7 @@ params:
     # Logo (from /images/logos/___)
     logo: logo-white.svg
     # Social Media Title
-    socialmediatitle: Follow Us // TODO
+    socialmediatitle: Siga-nos
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://www.linkedin.com/company/fluid-digital-solutions/about/
@@ -151,19 +152,19 @@ params:
     #   icon: twitter
     bulmalogo: false
     quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+      # column1:
+      #   title: "Product"
+      #   links:
+      #   - text: Discover features
+      #     link: /
+      #   - text: Why choose our product?
+      #     link: /
+      #   - text: Compare features
+      #     link: /
+      #   - text: Our roadmap
+      #     link: /
+      #   - text: AGB
+      #     link: /agb
       # column2:
       #   title: "Docs"
       #   links:
