@@ -1,0 +1,28 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="{{ "js/fresh.js" | relURL }}"></script>
+<script src="{{ "js/jquery.panelslider.min.js" | relURL }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<!-- Carousel for clients/partners -->
+<script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+<!-- TODO Move to separate file -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    // Lazy-load images: https://github.com/nolimits4web/Swiper/blob/master/demos/370-lazy-load-images.html
+    var mySwiper = new Swiper ('.swiper-container', {
+      //slidesPerView: 'auto',
+      slidesPerView: 2,
+      loop: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640:  { slidesPerView: 3 },
+        768:  { slidesPerView: 4 },
+        1024: { slidesPerView: 5 },
+      },
+    })
+  });
+</script>

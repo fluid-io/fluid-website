@@ -46,7 +46,7 @@ params:
     - nogueira
     - rb
     - redevistorias
-    partnerlogos:
+    # partnerlogos:
     - bling
     - flexy
     - huru

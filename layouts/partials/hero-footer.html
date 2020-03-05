@@ -2,17 +2,19 @@
 {{- $clientLogos := index $hero "clientlogos" }}
 <div class="hero-foot mb-20">
   <div class="container">
-    <div class="tabs is-centered">
-      <ul>
+    <div class="tabs swiper-container">
+      <!-- <ul class="clients-logos-swiper"> -->
+      <ul class="swiper-wrapper">
         {{- range $clientLogos }}
-        <li>
+        <li class="swiper-slide">
           <a>
-            {{/* TODO Don't need to override this partial once we get the clients logos in svg */}}
             <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.png" . | relURL }}">
           </a>
         </li>
         {{- end }}
       </ul>
+      <!-- Add Pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </div>
