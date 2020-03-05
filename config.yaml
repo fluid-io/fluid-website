@@ -192,3 +192,10 @@ params:
       #     link: /blog/first
       #   - text: Tech articles
       #     link: /blog/second
+      column1:
+        title: "Contato"
+        links:
+        - text: contato@fluidapi.io
+          link: mailto:contato@fluidapi.io?subject=Contato
+        - text: Av. Luiz Boiteux Piazza, 1302 - Sapiens Parque / Florianopólis-SC
+          link: https://goo.gl/maps/HFhtoLgo3J2rYpQs5
