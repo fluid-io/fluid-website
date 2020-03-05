@@ -132,7 +132,7 @@ params:
     - name: André Pereira
       quote: A Fluid nos permitiu integrar a plataforma de E-Commerce com o ERP Totvs (situação que ficamos por quase dois anos com outro fornecedor sem sucesso). De uma forma simples, integramos produtos, estoques, valores, dados fiscais e implementamos processos de exceção.
       job: Gerente de Marketing
-      company: NB Indústrias
+      company: Indústrias NB
       img: andre
     - name: Paul Eipper
       quote: A Fluid nos permitiu focar na evolução de nossa API, a qual é um diferencial importante de nosso serviços, enquanto delegamos a eles toda a complexidade do desenvolvimento e gestão da integração.
@@ -197,5 +197,10 @@ params:
         links:
         - text: contato@fluidapi.io
           link: mailto:contato@fluidapi.io?subject=Contato
-        - text: Av. Luiz Boiteux Piazza, 1302 - Sapiens Parque / Florianopólis-SC
+          target: "_blank"
+        - text: Av. Luiz Boiteux Piazza, 1302<br>Sapiens Parque / Florianopólis-SC
           link: https://goo.gl/maps/HFhtoLgo3J2rYpQs5
+          target: "_blank"
+        - text: +55 11 97553-0554
+          link: tel:+5511975530554
+
