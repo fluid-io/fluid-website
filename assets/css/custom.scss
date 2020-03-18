@@ -32,19 +32,49 @@
   margin-right: auto;
 }
 
+.feature-card {
+  .card-text {
+    margin-top: 20px;
+  }
+}
+
+.section.section2 {
+  .media-left {
+    margin-right: 1.5rem;
+    margin-bottom: 3.5rem;
+    .image > img {
+      width: 110px;
+      height: 110px;
+    }
+  }
+  .media-content {
+    margin-top: 15px;
+  }
+}
+
 // #################################################################################
 // Responsiveness
 
 @include mobile {
   .section.section2 {
     .media-left {
-      margin-right: 0.5rem;
+      margin-right: 1rem;
       .image > img {
-        max-width: 80px;
+        width: 60px;
+        height: 60px;
       }
     }
-    .media-content {
-      margin-top: 15px;
+  }
+}
+
+@include mobile {
+  .feature-card {
+    height: 300px;
+    .card-text {
+      margin-top: 10px;
+    }
+    .card-icon img {
+      height: 80px;
     }
   }
 }

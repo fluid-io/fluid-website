@@ -43,6 +43,7 @@ params:
     - dydyo
     - hidroazul
     - jf
+    - nb
     - nogueira
     - rb
     - redevistorias
@@ -74,17 +75,17 @@ params:
     subtitle: Sem complicação
     tiles:
     - title: Developer Builder
-      icon: laptop-cloud
+      icon: feat-developer_builder
       text: Portal com SDKs e construtor de automação para simplificar e acelerar o desenvolvimento de integrações.
       url: /
       buttonText: Free trial
     - title: Developer Admin
-      icon: mouse-globe
+      icon: feat-developer_admin
       text: Acompanhe o status dos serviços, logs de transações e acelere o diagnóstico e solução em caso de falhas.
       url: /
       buttonText: Get started
     - title: Professional Services
-      icon: plug-cloud
+      icon: feat-professional_services
       text: Foque no que realmente importa para seu negócio e deixe a integração com nossos especialistas.
       url: /
       buttonText: Get started
@@ -96,22 +97,22 @@ params:
     - title: Fluid na sua logística
       text: Integre sua operação de vendas e distribuição com transportadoras, gateways de frete e _deliveries_.
       # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
+      icon: area-logistica
     - title: Fluid no seu financeiro
       text: Integre Processos de Conciliação financeira, faturamento, contabilidade com toda empresa.
-      icon: doc-sync
+      icon: area-financeiro
     - title: Fluid no seu E-commerce
       text: Conecte a sua operação de e-commerce com ERP, PDV, Maketplaces.
-      icon: mobile-feed
+      icon: area-ecommerce
     - title: Fluid no seu Atendimento
       text: Integre Sistemas de atendimento, assistência técnica, portal de auto atendimento e _chat_.
-      icon: laptop-globe
+      icon: area-atendimento
     - title: Fluid no seu Marketing
       text: Compartilhe entre suas ferramentas de inbound, outbound e mídias sociais suas réguas de relacionamento e campanhas.
-      icon: doc-sync
+      icon: area-marketing
     - title: Fluid na sua Força de Vendas
       text: Automatize o envio de dados de preço para as suas aplicações de vendas, ERPs e CRMs.
-      icon: mobile-feed
+      icon: area-vendas
   # Display a bright image of your product.
   # section3: # TODO
   #   # title: Mais que uma plataforma, uma solução de integração
@@ -203,4 +204,3 @@ params:
           target: "_blank"
         - text: +55 11 97553-0554
           link: tel:+5511975530554
-
