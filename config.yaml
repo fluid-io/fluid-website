@@ -3,7 +3,7 @@ languageCode: pt-br
 title: Fluid
 theme: hugo-fresh
 
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: G-75523D2EWC # UA-XXXXXX...
 
 # Disables warnings
 disableKinds:

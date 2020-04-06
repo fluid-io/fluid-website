@@ -13,6 +13,7 @@
 ### 06/04/2020
 
 - Facebook link
+- Google analytics
 
 
 ### Other templates
