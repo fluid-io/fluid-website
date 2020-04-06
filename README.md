@@ -8,6 +8,12 @@
 - Clientes e parceiros
 - Contato
 - Apps e serviços integrados
+## Release notes
+
+### 06/04/2020
+
+- Facebook link
+
 
 ### Other templates
 

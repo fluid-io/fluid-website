@@ -1,5 +1,5 @@
-baseURL: https://www.fluid.io/
-languageCode: en-us
+baseURL: https://www.fluidapi.io/
+languageCode: pt-br
 title: Fluid
 theme: hugo-fresh
 
@@ -150,14 +150,13 @@ params:
     # Social Media Title
     socialmediatitle: Siga-nos
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
+    socialmedia: # Icons are from Font Awesome
     - link: https://www.linkedin.com/company/fluid-digital-solutions/about/
-      # Icons are from Font Awesome
       icon: linkedin
+    - link: https://www.facebook.com/FluidAPI/
+      icon: facebook
     - link: https://github.com/fluid-io
       icon: github
-    # - link: https://facebook.com/#
-    #   icon: facebook
     # - link: https://twitter.com/lucperkins
     #   icon: twitter
     bulmalogo: false
