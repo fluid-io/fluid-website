@@ -19,6 +19,7 @@ params:
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy 
   description: Simplifying the development and management of APIs and Integrations
+  facebookPixel: 877511336046998
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/logo-dark.svg

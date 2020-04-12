@@ -3,10 +3,10 @@
 ## Backlog
 
 - Configure CI/CD
-- Add Google Analytics and Facebook Pixel
 - Add i18n
 - Add copyright section
 - Single pages (https://github.com/StefMa/hugo-fresh/pull/58 and https://github.com/StefMa/hugo-fresh/pull/35)
+- ~~Add Google Analytics and Facebook Pixel~~
 - ~~Novos ícones~~
 - ~~Scripts para deploy~~
 - ~~Build and publish website~~
@@ -26,7 +26,7 @@
 ### 06/04/2020
 
 - Facebook link
-- Google analytics
+- Google Analytics and Facebook Pixel
 
 ## Deploy
 
