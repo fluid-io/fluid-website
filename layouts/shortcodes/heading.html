@@ -1,0 +1,3 @@
+{{- $type := default "title" (.Get "type") -}}
+{{- $size := default "2" (.Get "size") -}}
+<h{{ $size }} class="{{ $type }} is-{{ $size }}">{{ .Inner }}</h{{ $size }}>
